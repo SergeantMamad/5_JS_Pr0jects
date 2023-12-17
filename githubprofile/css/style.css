@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato";
+  background-color: #0e0e14;
+  display: flex;
+  justify-content: center;
+}
+main {
+  text-align: center;
+  border: white 2px;
+  width: 80%;
+  margin-top: 1.5rem;
+}
+h1 {
+  font-size: 3.5rem;
+  text-align: center;
+  color: #dcddeb;
+  font-weight: 900;
+}
+
+.search {
+  width: 35%;
+  height: 45px;
+  padding: 1rem;
+  font-family: inherit;
+  font-size: 1.5rem;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 10px;
+}
+.search:focus {
+  outline: none;
+}
+.searchmag {
+  position: absolute;
+  margin-left: -3%;
+  margin-top: 5px;
+}
+
+.profile {
+  background-color: #14151d;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  padding: 1rem;
+  margin-top: 5rem;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  color: #dcddeb;
+}
+
+.img-container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.3rem;
+  width: 146px;
+  height: 146px;
+  border-radius: 200px;
+  border: #f5f5f5 1px solid;
+}
+
+.img-container img {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 200px;
+  object-fit: scale-down;
+  height: max-content;
+  width: 100%;
+  height: 100%;
+}
+.info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-top: #f5f5f53a 0.5px solid;
+  border-bottom: #f5f5f53a 0.5px solid;
+  padding: 1rem;
+}
+small {
+  font-weight: 900;
+}
+i {
+  font-size: 1.4rem;
+}
+.more-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 1rem;
+}
+
+.more-info small {
+  margin-top: 15px;
+}
+
+.random-f {
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5%;
+}
+
+.friend {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  height: 420px;
+  width: 40%;
+  min-width: 40%;
+  background-color: #14151d;
+  padding: 2rem;
+  font-size: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: #0253b3;
+}
+a:visited {
+  color: #0253b3;
+}
